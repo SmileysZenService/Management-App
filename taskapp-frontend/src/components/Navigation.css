@@ -1,0 +1,33 @@
+/* Navigation.css */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.2s ease;
+  }
+  
+  .nav-links li a:hover,
+  .active-link {
+    color: #ffdd57;
+  }
+  

@@ -1,0 +1,47 @@
+/* Home.css */
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 80px); /* subtract nav height */
+    background: url('https://source.unsplash.com/1600x900/?office,work') center/cover no-repeat;
+  }
+  
+  .hero {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    color: #fff;
+    animation: fadeIn 1s ease-out;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-btn {
+    background: #ffdd57;
+    color: #333;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    transition: background 0.3s;
+  }
+  
+  .cta-btn:hover {
+    background: #ffd633;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
